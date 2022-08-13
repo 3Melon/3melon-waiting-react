@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -15,27 +14,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <nav className={styles.mainpagenav}>
-        <ul>
-          <Link href="/">
-            <li>Home</li>
-          </Link>
-          <Link href="/events">
-            <li>Events</li>
-          </Link>
-          <Link href="/blog">
-            <li>Blog</li>
-          </Link>
-          <Link href="/login">
-            <li>Login</li>
-          </Link>
-        </ul>
-      </nav>
-
       <main className={styles.main}>
         <div>
-          <h1>3Melon</h1>
-          <h2>Web3 Social | Events | Meetups</h2>
+          <h1 className={styles.heading}>Enjoy Events like never before!</h1>
+          <h2 className={styles.subheading}>Web3 Social | Events | Meetups</h2>
         </div>
       </main>
 

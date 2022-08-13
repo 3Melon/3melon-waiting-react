@@ -1,23 +1,23 @@
-.mainpagenav ul {
-  display: flex;
-  justify-content: flex-end;
-  list-style: none;
-}
-.mainpagenav li {
-  font-weight: bold;
-  cursor: pointer;
-  padding: 0.5em 1em;
-}
-
 .main {
   min-height: 70vh;
-  padding: 4rem 2em;
+  padding: 2rem 2em;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
+  text-align: center;
 }
+
+.heading {
+  margin-bottom: 0;
+  font-size: 3em;
+}
+
+.subheading {
+  margin-top: 0;
+}
+
 .footer {
   display: flex;
   justify-content: center;

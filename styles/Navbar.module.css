@@ -1,0 +1,40 @@
+.mainpagenav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+  }
+  .mainpagenav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+  .mainpagenav li {
+    font-weight: bold;
+    margin: 0.5em 1em;
+    cursor: pointer;
+  }
+  .mainpagenav .brand {
+    align-self: center;
+    justify-self: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .mainpagenav button{
+    height: fit-content;
+    border-radius: 5px;
+    border: 0;
+    padding: 0.5em 1em;
+    align-self: center;
+    cursor: pointer;
+  }
+  .mainpagenav button:hover{
+    background-color: crimson;
+  }
+  .mainpagenav .brand:hover,.mainpagenav li:hover{
+    color: crimson;
+  }
+  .mainpagenav li:active {
+    font-weight: bold;
+  }
